@@ -14,6 +14,8 @@
 		6FDAE8D52580B5110002A3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FDAE8D32580B5110002A3E9 /* LaunchScreen.storyboard */; };
 		6FDAE8E02580B5110002A3E9 /* ScreenXpressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDAE8DF2580B5110002A3E9 /* ScreenXpressTests.swift */; };
 		6FDAE8EB2580B5110002A3E9 /* ScreenXpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDAE8EA2580B5110002A3E9 /* ScreenXpressUITests.swift */; };
+		6FDB0D472581FFE500B3B46F /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB0D462581FFE500B3B46F /* OnboardingPage.swift */; };
+		6FDB0D572582005F00B3B46F /* SXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB0D562582005F00B3B46F /* SXButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6FDAE8E62580B5110002A3E9 /* ScreenXpressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenXpressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDAE8EA2580B5110002A3E9 /* ScreenXpressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenXpressUITests.swift; sourceTree = "<group>"; };
 		6FDAE8EC2580B5110002A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDB0D462581FFE500B3B46F /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		6FDB0D562582005F00B3B46F /* SXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 		6FDB0D442581FEB900B3B46F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6FDB0D462581FFE500B3B46F /* OnboardingPage.swift */,
+				6FDB0D562582005F00B3B46F /* SXButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +287,8 @@
 				6FDAE8CD2580B5100002A3E9 /* ViewController.swift in Sources */,
 				6FDAE8C92580B5100002A3E9 /* AppDelegate.swift in Sources */,
 				6FDAE8CB2580B5100002A3E9 /* SceneDelegate.swift in Sources */,
+				6FDB0D472581FFE500B3B46F /* OnboardingPage.swift in Sources */,
+				6FDB0D572582005F00B3B46F /* SXButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

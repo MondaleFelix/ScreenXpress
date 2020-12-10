@@ -105,7 +105,7 @@ class OnboardingPage: UIView {
     }
     
     func createLoginNC() -> UINavigationController {
-        let loginVC = LoginVC()
+        let loginVC = UserFormVC()
         return UINavigationController(rootViewController: loginVC)
     }
     

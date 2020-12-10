@@ -25,6 +25,7 @@ class UserFormVC: UIViewController {
         addCreateButton()
         title = "New Repair"
         
+        
 
     }
     
@@ -34,7 +35,12 @@ class UserFormVC: UIViewController {
     }
     
     @objc func createButtonPresed(){
-        
+        let confirmationVC = ConfirmationVC()
+        confirmationVC.nameLabel.text = self.nameTextField.text!
+        confirmationVC.phoneLabel.text = self.cellNumberTextField.text!
+
+        navigationController?.present(confirmationVC, animated: true)
+
     }
 
 

@@ -16,6 +16,7 @@
 		6FDAE8EB2580B5110002A3E9 /* ScreenXpressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDAE8EA2580B5110002A3E9 /* ScreenXpressUITests.swift */; };
 		6FDB0D472581FFE500B3B46F /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB0D462581FFE500B3B46F /* OnboardingPage.swift */; };
 		6FDB0D572582005F00B3B46F /* SXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB0D562582005F00B3B46F /* SXButton.swift */; };
+		6FDB0D5C2582012600B3B46F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDB0D5B2582012600B3B46F /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6FDAE8EC2580B5110002A3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FDB0D462581FFE500B3B46F /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
 		6FDB0D562582005F00B3B46F /* SXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SXButton.swift; sourceTree = "<group>"; };
+		6FDB0D5B2582012600B3B46F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				6FDAE8CC2580B5100002A3E9 /* ViewController.swift */,
+				6FDB0D5B2582012600B3B46F /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				6FDAE8CD2580B5100002A3E9 /* ViewController.swift in Sources */,
 				6FDAE8C92580B5100002A3E9 /* AppDelegate.swift in Sources */,
+				6FDB0D5C2582012600B3B46F /* LoginVC.swift in Sources */,
 				6FDAE8CB2580B5100002A3E9 /* SceneDelegate.swift in Sources */,
 				6FDB0D472581FFE500B3B46F /* OnboardingPage.swift in Sources */,
 				6FDB0D572582005F00B3B46F /* SXButton.swift in Sources */,
